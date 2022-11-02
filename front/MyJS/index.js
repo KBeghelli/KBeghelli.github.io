@@ -17,6 +17,7 @@ function dynamicProducts() {
       * donc surement avec ce lien : ./product.html?id=${product._id}
       *
       */
+      example.setAttributes("href", "./product.html?id=${product._id}")
       
       example.innerHTML = `<article>
       <img src="${product.imageUrl}" alt="${product.altTxt}">
