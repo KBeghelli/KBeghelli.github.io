@@ -52,7 +52,7 @@ function loadProducts() {
       idToPutProductsData.appendChild(example);
     }
       )
-  }
+  })
   .catch((err) => {
     console.error(err);
   });
